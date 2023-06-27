@@ -1,38 +1,49 @@
-.App {
+.container {
+  width: 100%;
+  height: 100vh;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container .heading {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 6rem;
+  letter-spacing: 2px;
+  font-family: "Lilita One", cursive;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#f9d39c, #ffb753);
+  background-clip: border-box;
+  -webkit-background-clip: text;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container h2 {
+  color: #fff;
+  font-family: "Lilita One", cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container h2 span {
+  color: #11aaec;
+  font-weight: 600;
+}
+.winner {
+  margin-top: 25px;
+  padding: 10px;
+}
+.board-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  width: 30%;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Lilita One", cursive;
+  letter-spacing: 2px;
 }
